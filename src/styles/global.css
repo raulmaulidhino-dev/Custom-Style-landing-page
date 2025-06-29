@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 @import "tailwindcss";
+@custom-variant hover (&:hover);
 
 @theme {
   --color-primary: #F8F8F8;
   --color-secondary: #0E0D12;
   --color-accent: #586750;
+  --font-display: "DM Sans", "sans-serif";
+}
+
+@layer base {
+  body {
+    font-family: var(--font-display);
+  }
 }
