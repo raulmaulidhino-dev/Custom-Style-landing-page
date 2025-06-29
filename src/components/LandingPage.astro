@@ -1,11 +1,13 @@
 ---
 import Header from './Home/Header.svelte';
 import Hero from './Home/Hero.svelte';
+import WhyChooseUs from './Home/WhyChooseUs.svelte';
 ---
 
 <div id="container">
 	<Header client:load />
-	<Hero />
 	<main>
+		<Hero client:load />
+		<WhyChooseUs client:idle />
 	</main>
 </div>
