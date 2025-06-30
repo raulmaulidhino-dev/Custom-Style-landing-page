@@ -8,6 +8,6 @@
     </div>
   </section>
   <section class="md:w-[50vw]">
-    <img src="/images/Hero-Image.jpeg" alt="Custom Style Hero" class="w-full mx-auto md:rounded-l-sm" />
+    <img src="/images/hero/Hero-Image.jpeg" alt="Custom Style Hero" class="w-full mx-auto md:rounded-l-sm" />
   </section>
 </section>
