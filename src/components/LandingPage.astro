@@ -2,6 +2,13 @@
 import Header from './Home/Header.svelte';
 import Hero from './Home/Hero.svelte';
 import WhyChooseUs from './Home/WhyChooseUs.svelte';
+import OurServices from './Home/OurServices.svelte';
+import Workflow from './Home/Workflow.svelte';
+import FeaturedProducts from './Home/FeaturedProducts.svelte';
+import Promo from './Home/Promo.svelte';
+import FAQ from './Home/FAQ.svelte';
+import Footer from './Home/Footer.svelte';
+
 ---
 
 <div id="container">
@@ -9,5 +16,11 @@ import WhyChooseUs from './Home/WhyChooseUs.svelte';
 	<main>
 		<Hero client:load />
 		<WhyChooseUs client:idle />
+		<OurServices client:idle />
+		<Workflow client:idle />
+		<FeaturedProducts client:visible />
+		<Promo client:visible />
+		<FAQ client:visible />
 	</main>
+	<Footer client:load />
 </div>
