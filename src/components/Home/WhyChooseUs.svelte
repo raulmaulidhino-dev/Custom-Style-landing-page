@@ -29,7 +29,7 @@
   ];
 </script>
 
-<section class="py-8 px-4 md:px-6">
+<section class="py-[6rem] px-4 md:px-6">
   <h2 class="text-3xl text-center font-bold md:text-4xl mb-[1em]">Mengapa Pilih Custom Style?</h2>
   <section class="flex flex-wrap gap-4 justify-center h-full">
     {#each features as feature}
