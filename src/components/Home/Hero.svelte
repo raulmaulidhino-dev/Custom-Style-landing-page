@@ -7,7 +7,7 @@
       <button class="md:text-lg text-accent bg-primary border-2 border-accent font-semibold w-full md:w-fit px-4 py-2 rounded-lg transition ease-in-out duration-500 hover:shadow-lg hover:scale-[0.95]">Lihat Produk</button>  
     </div>
   </section>
-  <section class="bg-accent w-full md:w-[50vw] grow">
+  <section class="bg-accent w-full md:w-[50vw] grow">clear
     <img src="/images/hero/Hero-Image.jpeg" alt="Custom Style Hero" class="w-full mx-auto md:rounded-l-sm" />
   </section>
 </section>
