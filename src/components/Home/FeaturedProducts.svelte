@@ -72,7 +72,7 @@
 
 <section class="py-[6rem] px-6 md:px-8 bg-primary text-secondary">
   <h2 class="text-3xl text-center font-bold md:text-4xl mb-[1em]">Produk Unggulan Kami</h2>
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-6">
     {#each products as product}
       <article class="bg-white rounded-lg shadow-md overflow-hidden hover:scale-[1.05] transition duration-500 ease-in-out flex flex-col">
         <img src={product.picturePath} alt={product.name} loading="lazy" class="w-full h-64 aspect-[3/4] object-cover" />
