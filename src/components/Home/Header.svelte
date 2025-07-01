@@ -40,7 +40,7 @@
   <nav class="hidden lg:block">
     <ul class="flex gap-4">
       {#each navItems as navItem}
-        <li><a href={navItem.href} class={`text-secondary font-semibold ${ navItem.isActive ? "text-accent" : "hover:text-accent" } `}>{navItem.name}</a></li>
+        <li><a href={navItem.href} class={`font-semibold ${ navItem.isActive ? "text-accent" : "text-secondary hover:text-accent" } `}>{navItem.name}</a></li>
       {/each}
     </ul>
   </nav>
