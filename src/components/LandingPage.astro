@@ -14,13 +14,13 @@ import Footer from './Home/Footer.svelte';
 <div id="container">
 	<Header client:load />
 	<main>
-		<Hero client:load />
+		<Hero />
 		<WhyChooseUs client:idle />
 		<OurServices client:idle />
 		<Workflow client:idle />
 		<FeaturedProducts client:visible />
-		<Promo client:visible />
+		<Promo />
 		<FAQ client:visible />
 	</main>
-	<Footer client:load />
+	<Footer />
 </div>

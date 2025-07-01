@@ -21,14 +21,7 @@
     { name: "Hubungi Kami", href: "/" }
   ];
 
-  onMount(() => {
-    const handleResize = async () => {
-      if (window.innerWidth > 768) {
-        isMobileNavOpen = false;
-      }
-    };
-    window.addEventListener("resize", handleResize);
-    
+  onMount(() => {    
     const hamburgerBtn: HTMLElement | null = document.getElementById("hamburger");
 
     if (hamburgerBtn) {
@@ -36,8 +29,6 @@
         isMobileNavOpen = !isMobileNavOpen;
       });
     }
-
-    return () => window.removeEventListener("resize", handleResize);
   });
 </script>
 
