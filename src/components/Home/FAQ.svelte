@@ -115,7 +115,7 @@
         {/if}
       </div>
       <div
-        class="answer bg-primary text-left text-secondary rounded-b-lg overflow-hidden transition-all duration-300"
+        class="answer bg-primary text-left text-secondary rounded-b-lg overflow-hidden transition-all duration-500"
         style="max-height: {faq.isOpen ? '500px' : '0'}"
       >
         {#if faq.isOpen}
