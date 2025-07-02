@@ -15,7 +15,7 @@
       bgImage: "/images/services/Sablon-DTF.webp"
     },
     {
-      title: "Bordir Sublimasi",
+      title: "Sablon Sublimasi",
       bgImage: "/images/services/Sablon-Sublimasi.webp"
     },
     {
