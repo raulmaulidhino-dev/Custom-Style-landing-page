@@ -71,6 +71,6 @@
   </nav>
   <section class="grow-1 md:grow-0 justify-center items-center gap-2 hidden lg:flex">
     <input type="text" placeholder="Cari Produk/Jasa" class="bg-slate-200 p-3 rounded-full" />
-    <CartIcon size="38" class="text-primary bg-accent p-2 rounded-lg" />
+    <CartIcon size="38" class="text-primary bg-accent p-2 border-accent rounded-lg hover:text-accent hover:bg-primary hover:shadow-md hover:shadow-accent" />
   </section>
 </header>
