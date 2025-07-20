@@ -1,3 +1,5 @@
+![Custom Style Logo Banner](public/images/og/Custom-Style_OG.jpg)
+
 # Custom Style (Landing Page)
 
 **Custom Style** is an Indonesian small and medium-sized garment enterprise (UMKM) that specializes in producing high-quality custom clothing, ranging from office uniforms to t-shirts and jackets. The company offers exclusive design services, uses premium materials, and maintains strict quality control for every order.
